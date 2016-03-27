@@ -2,6 +2,7 @@
 .grid .image-cell {
     display: inline-block;
     margin: 4px;
+    cursor: pointer;
 }
 .grid .image-item {
     vertical-align: middle;
@@ -58,9 +59,11 @@
 }
 .lightbox button.prev {
     left: 0;
+    cursor: pointer;
 }
 .lightbox button.next {
     right: 0;
+    cursor: pointer;
     transform: scaleX(-1);
 }
 
